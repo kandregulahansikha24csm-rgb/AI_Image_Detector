@@ -1,0 +1,27 @@
+.codex_ml_deps/
+__pycache__/
+*.py[cod]
+*.pyo
+
+
+# Generated model artifacts
+model.pkl
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+data_cache/
+
+# Local datasets and generated case-study files
+dataset/*
+!dataset/README.md
+case_study_render/
